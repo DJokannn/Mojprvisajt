@@ -1,0 +1,89 @@
+
+
+.Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "NavBar NavBar NavBar NavBar"
+    ". FirstWindow SecondWindow ."
+    ". ThirdWindow Retard .";
+}
+
+.NavBar {
+    grid-area: NavBar;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+.FirstWindow {
+    grid-area: FirstWindow;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    color: darkblue;
+    width: 350px;
+    height: 350px;
+}
+
+.FirstWindow .Dj {
+    color: darkgreen;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.SecondWindow {
+    grid-area: SecondWindow;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    color: darkblue;
+    width: 350px;
+    height: 150px;
+}
+
+
+.ThirdWindow {
+    grid-area: ThirdWindow;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    color: darkblue;
+    width: 350px;
+    height: 150px;
+    margin-top: 50px;
+
+} 
+
+
+.Retard {
+    grid-area: Retard;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    color: darkblue;
+    width: 350px;
+    height: 150px;
+    margin-top: 50px;
+
+} 

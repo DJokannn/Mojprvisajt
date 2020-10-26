@@ -1,0 +1,49 @@
+.WebSajt {
+    color: blue;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0.5px  0.5px  0.5px  0.5px;
+    color: brown;
+
+    width: 350px;
+    height: 200px;
+
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.WebSajt .Djokan {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.WebSajt .Laza {
+    float: right;
+    color: rgb(255, 88, 16);
+    margin-top: 50px;
+    margin-right: 75px;
+}
+
+.WebSajt .Laza:hover {
+    color: rgb(0, 0, 32);
+}
+
+.WebSajt .Dugme {
+    float: right;
+    font-size: 25px;
+    margin-top: 250px;
+    margin-right: 250px;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0.5px  0.5px  0.5px  0.5px;
+    color: brown;
+    width: 150px;
+    height: 100px;
+}
+
+.djokan {
+    color: orange;
+}
+
