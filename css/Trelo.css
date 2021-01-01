@@ -1,0 +1,987 @@
+.CeoSajt {
+    display: grid;
+    grid-template-areas:
+    "NavBar"
+    "PrviProzor"
+    "DrugiProzor"
+    "TreciProzor"
+    "CetvrtiProzor"
+    "PetiProzor"
+    "SestiProzor"
+    "SedmiProzor"
+    "OsmiProzor"
+    "kraj";
+}
+
+
+
+.NavBar {
+    grid-area: NavBar;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-color: #0079bf;
+}
+
+
+
+.NavBar .slika {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.NavBar .trelo {
+    float: left;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: inherit;
+    color: snow;
+    margin-top: 20px;    
+}
+
+
+
+.NavBar .log {
+    float: right;
+    color: snow;
+    margin-top: 30px;
+    margin-right: 130px;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+
+.NavBar .log:hover {
+    color: white;
+}
+
+
+
+.NavBar .sign {
+    float: right;
+    color:  #0079bf;
+    background-color: snow;
+    margin-top: 23px;
+    margin-right: -150px;
+    font-family: "Charlie Text",sans-serif;
+    font-size: 19px;
+    font-weight: initial;
+    border-radius: 3px 3px 3px 3px;
+    padding: .40rem .5rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.PrviProzor {
+    grid-area: PrviProzor;
+    margin-top: -20px;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(135deg, #0079bf, #5067c5);
+}
+
+
+
+
+.PrviProzor .txt1 {
+    float: left; /*nzm zasto al zbog ovoga je section bio spojen sa p ????*/
+    color: snow;
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 43px;
+    font-weight: bold;
+    font-family: "Charlie Display",sans-serif;
+    width: 550px;
+    line-height: 1.2;
+}
+
+
+
+
+
+.PrviProzor .txt2 {
+    float: left;
+    color: snow;
+    margin-top: -30px;
+    margin-left: 150px;
+    width: 580px;
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: "Charlie Text",sans-serif;
+    line-height: 2.1rem;
+    letter-spacing: 2px;
+}
+
+
+
+
+.PrviProzor .email {
+    float: left;
+    margin-top: 180px;
+    margin-left: -580px;
+    border-radius: 6px 6px 6px 6px;
+    border-color: white;
+    height: 50px;
+    width: 370px;
+}
+
+
+
+.PrviProzor .email::placeholder {
+    font-size: 1.25rem;
+    font-family: "Charlie Text",sans-serif;
+    padding-left: 15px;
+}
+
+
+
+
+.PrviProzor .sign {
+    float: left;
+    color: white;
+    margin-top: 180px;
+    margin-left: -200px;
+    padding-top: 15px;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    background-color: #61BD4F;
+    border-radius: 6px 6px 6px 6px;
+    font-size: 1.55rem;
+    font-family: "Charlie Text",sans-serif;
+    width: 220px;
+    height: 42px;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+}
+
+
+
+
+
+.PrviProzor .sign:hover {
+    background-color: green;
+}
+
+
+
+
+.PrviProzor .slika {
+    float: left;
+    margin-top: -230px;
+    margin-left: -70px;
+    height: 310px;
+    width: 520px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.DrugiProzor {
+    background-color: snow;
+    color: #172B4D;
+    width: 100%;
+    height: 580px;
+}
+
+
+
+
+.DrugiProzor .naslov {
+    float: left;
+    margin-top: 150px;
+    margin-left: 110px;
+    font-size: 2.1rem;
+    font-family: "Charlie Display",sans-serif;
+}
+
+
+
+
+.DrugiProzor .txt {
+    float: left;
+    margin-top: 200px;
+    margin-left: -315px;
+    font-size: 1.3rem;
+    font-family: "Charlie Display",sans-serif;
+    width: 440px;
+    line-height: 1.85rem;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+.DrugiProzor .dugme {
+    float: left;
+    margin-top: 310px;
+    margin-left: -440px;
+    padding: .375rem .75rem;
+    color: snow;
+    background-color: #6D8EA2;
+    border-radius: 6px 6px 6px 6px;
+    border: 5.5px solid transparent;
+    font-size: 20px;
+    font-family: "Charlie Display",sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+
+.DrugiProzor .dugme:hover {
+    background-color: #172B4D;
+}
+
+
+
+
+.DrugiProzor .slika {
+    float: right;
+    margin-top: -410px;
+    margin-right: 130px;
+    height: 800px;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.TreciProzor {
+    background-color: snow;
+    color:#172B4D;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+.TreciProzor .slika {
+    float: left;
+    margin-top: -200px;
+    width: 680px;
+    height: 680px;
+}
+
+
+
+
+.TreciProzor .naslov {
+    float: left;
+    margin-top: 70px;
+    margin-left: -100px;
+    font-size: 2.1rem;
+    font-family: "Charlie Display",sans-serif;
+}
+
+
+
+
+
+
+.TreciProzor .txt {
+    float: right;
+    margin-top: -365px;
+    margin-right: 75px;
+    font-size: 1.3rem;
+    font-family: "Charlie Display",sans-serif;
+    width: 680px;
+    line-height: 1.85rem;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CetvrtiProzor {
+    grid-area: CetvrtiProzor;
+    background-color: snow;
+    color: #172B4D;
+    width: 100%;
+    height: 480px;
+}
+
+
+
+
+
+.CetvrtiProzor .naslov {
+    float: left;
+    margin-top: 5px;
+    margin-left: 120px;
+    font-size: 1.8rem;
+    font-family: "Charlie Display",sans-serif;
+}
+
+
+
+
+
+.CetvrtiProzor .txt {
+    float: left;
+    margin-top: -8px;
+    margin-left: 120px;
+    font-size: 1.25rem;
+    font-family: "Charlie Display",sans-serif;
+    width: 595px;
+    line-height: 1.85rem;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+.CetvrtiProzor .lista {
+    float: left;
+    margin-top: 100px;
+    margin-left: -600px;
+    font-family: "Charlie Display",sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.85rem;
+}
+
+
+
+
+
+.CetvrtiProzor .slika {
+    float: right;
+    margin-top: -50px;
+    margin-right: 200px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.PetiProzor {
+    color:  #172B4D;
+    background-color: snow;
+    grid-area: PetiProzor;
+    width: 100%;
+    height: 800px;
+}
+
+
+
+
+.PetiProzor .naslov {
+    float: left;
+    margin-top: 5px;
+    margin-left: 540px;
+    font-size: 2rem;
+    font-family: "Charlie Display",sans-serif;
+}
+
+
+
+
+
+.PetiProzor .txt {
+    float: left;
+    margin-top: -20px;
+    margin-left: 370px;
+    font-size: 1.3rem;
+    font-family: "Charlie Display",sans-serif;
+    width: 600px;
+    line-height: 1.85rem;
+    letter-spacing: 0.4px;
+    text-align: center !important;
+}
+
+
+
+
+.PetiProzor .galerija {
+    float: left;
+    margin-left: 230px;
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+    background-color: #cccccc;
+    width: 880px;
+    height: 495px;
+    cursor: pointer;
+}
+
+
+
+
+.galerija .bus {
+    margin-left: 30px;
+    padding: .375rem .75rem;
+    color: snow;
+    background-color: #6D8EA2;
+    border-radius: 6px 6px 6px 6px;
+    border: 5.5px solid transparent;
+    width: 200px;
+    font-size: 20px;
+    font-family: "Charlie Display",sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SestiProzor {
+    background-color: snow;
+    color: #172B4D;
+    width: 100%;
+    height: 620px;
+}
+
+
+
+
+
+.SestiProzor .naslov {
+    float: left;
+    margin-top: 5px;
+    margin-left: 540px;
+    font-size: 2rem;
+    font-family: "Charlie Display",sans-serif;
+}
+
+
+
+
+
+.SestiProzor .txt {
+    float: left;
+    margin-top: -20px;
+    margin-left: 370px;
+    font-size: 1.3rem;
+    font-family: "Charlie Display",sans-serif;
+    width: 600px;
+    line-height: 1.85rem;
+    letter-spacing: 0.4px;
+    text-align: center !important;
+}
+
+
+
+
+
+.SestiProzor .grid1 {
+    float: left;
+    background-color: snow;
+    width: 360px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+
+
+
+
+.grid1 .slika1 {
+    margin-left: 100px;
+    background-color: snow;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+.grid1 .naslov1 {
+    float: left;
+    margin-left: 75px;
+    font-size: 1.52rem;
+    font-family: "Charlie Display",sans-serif;
+    letter-spacing: -0.5px;
+    text-align: center !important;
+}
+
+
+
+
+
+
+.grid1 .txt1 {
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 340px;
+    font-size: 1rem;
+    font-family: "Charlie Display",sans-serif;
+    line-height: 1.45rem;
+    letter-spacing: 0.2px;
+    text-align: center !important;
+}
+
+
+
+
+
+.grid1 .dugme1 {
+    float: left;
+    margin-top: -5px;
+    margin-left: 70px;
+    padding: .375rem .75rem;
+    color: snow;
+    background-color: #6D8EA2;
+    border-radius: 6px 6px 6px 6px;
+    border: 5.5px solid transparent;
+    font-size: 20px;
+    font-family: "Charlie Display",sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.grid1 .dugme1:hover {
+    background-color: #172B4D;
+}
+
+
+
+
+
+.SestiProzor .grid2 {
+    float: left;
+    background-color: snow;
+    width: 360px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.grid2 .slika2 {
+    margin-left: 100px;
+    background-color: snow;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+.grid2 .naslov2 {
+    float: left;
+    margin-left: 60px;
+    font-size: 1.52rem;
+    font-family: "Charlie Display",sans-serif;
+    letter-spacing: -0.5px;
+    text-align: center !important;
+}
+
+
+
+
+
+
+.grid2 .txt2 {
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 330px;
+    font-size: 1rem;
+    font-family: "Charlie Display",sans-serif;
+    line-height: 1.45rem;
+    letter-spacing: 0.2px;
+    text-align: center !important;
+}
+
+
+
+
+
+.grid2 .dugme2 {
+    float: left;
+    margin-top: -5px;
+    margin-left: 50px;
+    padding: .375rem .75rem;
+    color: snow;
+    background-color: #6D8EA2;
+    border-radius: 6px 6px 6px 6px;
+    border: 5.5px solid transparent;
+    font-size: 20px;
+    font-family: "Charlie Display",sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.grid2 .dugme2:hover {
+    background-color: #172B4D;
+}
+
+
+
+
+
+
+
+.SestiProzor .grid3 {
+    float: left;
+    background-color: snow;
+    width: 360px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.grid3 .slika3 {
+    margin-left: 100px;
+    background-color: snow;
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+.grid3 .naslov3 {
+    float: left;
+    margin-left: 75px;
+    font-size: 1.52rem;
+    font-family: "Charlie Display",sans-serif;
+    letter-spacing: -0.5px;
+    text-align: center !important;
+}
+
+
+
+
+
+
+.grid3 .txt3 {
+    float: left;
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 330px;
+    font-size: 1rem;
+    font-family: "Charlie Display",sans-serif;
+    line-height: 1.45rem;
+    text-align: center !important;
+    letter-spacing: 0.2px;
+}
+
+
+
+
+
+.grid3 .slika3-1 {
+    float: left;
+    margin-top: -7px;
+    margin-left: 30px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+.grid3 .slika3-2 {
+    float: left;
+    margin-top: -50px;
+    margin-left: 180px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.SedmiProzor {
+    grid-area: SedmiProzor;
+    background-color: snow;
+    color: white;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+.SedmiProzor .tabla {
+    float: left;
+    margin-left: 110px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#42548e), to(#6b668c));
+    border-radius: 15px 15px 15px 15px;
+    width: 1115px;
+    height: 500px;
+}
+
+
+
+
+
+.tabla .naslov {
+    float: left;
+    margin-top: 50px;
+    margin-left: 370px;
+    font-size: 2rem;
+    font-family: "Charlie Display",sans-serif;
+}
+
+
+
+
+.tabla .txt {
+    float: left;
+    margin-top: -20px;
+    margin-left: 350px;
+    font-size: 1.21rem;
+    font-family: "Charlie Display",sans-serif;
+    letter-spacing: 0.6px;
+}
+
+
+
+
+
+.tabla .slika {
+    float: left;
+    margin-top: -15px;
+    margin-left: 70px;
+}
+
+
+
+
+
+.tabla .dugme {
+    float: left;
+    margin-top: 40px;
+    margin-left: 460px;
+    padding: .375rem .75rem;
+    color: #172B4D;
+    background-color: snow;
+    border-radius: 6px 6px 6px 6px;
+    border: 5.5px solid transparent;
+    font-size: 20px;
+    font-family: "Charlie Display",sans-serif;
+    letter-spacing: 0.2px;
+    width: 145px;
+    cursor: pointer;
+}
+
+
+
+
+.tabla .dugme:hover {
+    background-color: rgb(199, 199, 250);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.OsmiProzor {
+    grid-area: OsmiProzor;
+    background-image: url("djokanHTML/slike/zadnjaslika.jpg");
+    background-color: cyan;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+
+.Ostalo .naslov {
+    float: left;
+    margin-top: 155px;
+    margin-left: 260px;
+    font-size: 2.05rem;
+    font-family: url("Trebuchet MS");
+}
+
+
+.Ostalo .txt {
+    float: left;
+    margin-top: -22px;
+    margin-left: 180px;
+    width: 470px;
+    font-size: 1.21rem;
+    font-family: "Charlie Display",sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 1.9rem;
+    text-align: center;
+}
+
+.Ostalo .dugme {
+    float: left;
+    margin-top: -5px;
+    margin-left: 300px;
+    padding: .375rem .75rem;
+    color: white;
+    background-color:  #61BD4F;
+    border-radius: 6px 6px 6px 6px;
+    border: 5.5px solid transparent;
+    font-size: 20px;
+    font-family: "Charlie Display",sans-serif;
+    letter-spacing: 0.4px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.Ostalo .dugme:hover {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kraj {
+    
+}

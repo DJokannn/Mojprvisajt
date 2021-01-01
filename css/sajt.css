@@ -1,0 +1,1438 @@
+.CeoSajt {
+    display: grid;
+    grid-template-areas: 
+    "NavBar"
+    "PrviProzor"
+    "DrugiProzor"
+    "TreciProzor"
+    "CetvrtiProzor"
+    "PetiProzor"
+    "SestiProzor"
+    "SedmiProzor"
+    "OsmiProzor"
+    "DevetiProzor";
+}
+
+.NavBar {
+    grid-area: NavBar;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+}
+
+.NavBar .LogoSlika {
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+} 
+
+.NavBar .NazivSajta {
+    float: left;
+    font-size: 40px;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: #002d4f;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.NavBar .home {
+    float: right;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    margin-top: 35px;
+    margin-right: 45px;
+    color: #002d4f;
+}
+
+.NavBar .home:hover {
+    color: #00caf4;
+}
+
+.NavBar .blog {
+    float: right;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    margin-top: 35px;
+    margin-right: 40px;
+    color: #002d4f;
+}
+
+.NavBar .blog:hover {
+    color: #00caf4;
+}
+
+.NavBar .content {
+    float: right;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    margin-top: 35px;
+    margin-right: 35px;
+    color: #002d4f;
+}
+
+.NavBar .content:hover {
+    color: #00caf4;
+}
+
+.NavBar .tower {
+    float: right;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    color: #00caf4;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 35px;
+    margin-right: 30px;
+}
+ 
+.NavBar .tower:hover {
+    background-color: #00caf4;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.PrviProzor {
+    grid-area: PrviProzor;
+    width: 100%;
+    height: 500px;
+    background-color: #002d4f;
+}
+
+
+.PrviProzor .Naslov {
+    font-size: 48px;
+    line-height: 3.75rem; 
+    width: 450px;   
+    margin-top: 150px;
+    margin-left: 150px;
+    color: #00caf4;
+}
+
+
+.PrviProzor .Txt {
+    font-size: 1.5rem;
+    color: snow;
+    width: 500px;
+    margin-top: -10px;
+    margin-left: 150px;
+
+}
+
+
+.PrviProzor .Slika {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-top: -250px;
+    margin-right: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.DrugiProzor {
+    grid-area: DrugiProzor;
+    background-color: #184772;
+    width: 100%;
+    height: 1100px;
+}
+
+
+.DrugiProzor .txt2 {
+    font-size: 30px;
+    color: snow;
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 350px;
+}
+  
+
+
+
+
+.DrugiProzor .PrvaSlika {
+    float: left;
+    background-color: #002d4f;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.PrvaSlika .kapa {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+.DrugiProzor .DrugaSlika {
+    float: left;
+    background-color: #002d4f;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.DrugaSlika .pretraga {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+.DrugiProzor .TrecaSlika {
+    float: left;
+    background-color: #002d4f;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+.TrecaSlika .srce {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+.DrugiProzor .Prvitxt {
+    float: left;
+    background-color: #24537e;
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+
+.Prvitxt .prvinaslov {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: #00caf4;
+    padding-top: 50px;
+    margin-left: 30px;     
+
+}
+
+
+.Prvitxt .prvitxt {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    color: snow;
+    line-height: 1.5rem;
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 200px;
+}
+
+
+
+.DrugiProzor .Drugitxt {
+    float: left;
+    background-color: #24537e;
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+
+.Drugitxt .druginaslov {
+    padding-top: 50px;
+    margin-left: 30px;
+    color: #00caf4 ;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.Drugitxt .drugitxt {
+    color: snow;
+    margin-left: 30px;
+    margin-top: -10px;
+    font-family: proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5rem;
+    width: 200px;
+}
+
+
+.DrugiProzor .Trecitxt {
+    float: left;
+    background-color: #24537e;
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+
+.Trecitxt .trecinaslov {
+    color: #00caf4 ;
+    padding-top: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif; 
+}
+
+
+.Trecitxt .trecitxt {
+    color:snow ;
+    margin-top: -10px;
+    margin-left: 30px;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif; 
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5rem;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+.TreciProzor {
+    grid-area: TreciProzor;
+    background-color:#002d4f ;
+    width: 100%;
+    height: 930px;
+    
+}
+
+
+.TreciProzor .clock {
+    margin-top: 100px;
+    margin-left: 170px;
+    width: 80px;
+    height: 75px;
+}
+
+
+.TreciProzor .naslov3 {
+    margin-top: -60px;
+    margin-left: 300px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif; 
+    font-weight: bold;
+    font-size: 35px;
+    width: 750px;
+}
+
+
+.TreciProzor .txt3_1 {
+    margin-top: -5px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.TreciProzor .txt3_2 {
+    margin-top: 10px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.TreciProzor .Measure{
+    margin-top: 40px;
+    margin-left: 300px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffc600;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    width: 400px;
+}
+
+
+.TreciProzor .Measure:hover {
+    color: black;  
+}
+
+
+.TreciProzor .paleta {
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+
+.TreciProzor .naslov3_2 {
+    margin-top: -60px;
+    margin-left: 300px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif; 
+    font-weight: bold;
+    font-size: 35px;
+    width: 750px;
+}
+
+
+.TreciProzor .tekst1 {
+    margin-top: -5px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.TreciProzor .tekst2 {
+    margin-top: 10px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.TreciProzor .Deliver{
+    margin-top: 40px;
+    margin-left: 300px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffc600;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    width: 300px;
+}
+
+
+.TreciProzor .Deliver:hover {
+    color: black;  
+}
+
+
+
+
+
+
+
+
+
+.CetvrtiProzor {
+    background-color: #09233c;
+    height: 500px;
+}
+
+
+.CetvrtiProzor .get {
+    margin-top: 100px;
+    margin-left: 240px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+
+.CetvrtiProzor .web {
+    margin-top: -81px;
+    margin-left: 390px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    width: 200px;
+}
+
+
+.CetvrtiProzor .Optimization {
+    margin-top: -25px;
+    margin-left: 240px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+
+.CetvrtiProzor .tool {
+    margin-top: -81px;
+    margin-left: 490px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+
+.CetvrtiProzor .txt4 {
+    margin-top: -10px;
+    margin-left: 240px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 22px;
+    width: 500px;
+}
+
+
+.CetvrtiProzor .klikni {
+    margin-left: 240px;
+}
+
+
+.CetvrtiProzor .txtzaklik {
+    margin-top: -19px;
+    margin-left: 260px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+    width: 500px;
+}
+
+
+.CetvrtiProzor .txtzaklik2 {
+    margin-left: 240px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+.CetvrtiProzor .email {
+    margin-top: 20px;
+    margin-left: 240px;
+    border-style: solid;
+    border-width: 0.1px 0.1px 0.1px 0.1px;
+    border-radius: 3px 0px 0px 3px;
+    border: #09233c;
+    height: 50px;
+    width: 430px;
+}
+
+
+.CetvrtiProzor .email::placeholder {
+    color: black;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+.CetvrtiProzor .avion {
+    float: right;
+    margin-top: 20px;
+    margin-right: 613px;
+    background-color: #ffc600;
+    border-radius: 0px 3px 3px 0px;
+    width: 52px;
+    height: 52px;
+}
+
+
+.CetvrtiProzor .avion:hover {
+    border: snow;
+    transition: background-color .2s ease-in-out;
+}
+
+
+.CetvrtiProzor .knjiga {    
+    float: right;
+    margin-top: -380px;
+    margin-right: 150px;
+    width: 450px;
+    height: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.PetiProzor {
+    grid-area: PetiProzor;
+    background-color: #083256;
+    width: 100%;
+    height: 1400px;
+    
+}
+
+
+.PetiProzor .clock {
+    margin-top: 100px;
+    margin-left: 170px;
+    width: 80px;
+    height: 75px;
+}
+
+
+.PetiProzor .naslov3 {
+    margin-top: -60px;
+    margin-left: 300px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif; 
+    font-weight: bold;
+    font-size: 35px;
+    width: 750px;
+}
+
+
+.PetiProzor .txt3_1 {
+    margin-top: -5px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.PetiProzor .txt3_2 {
+    margin-top: 10px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.PetiProzor .Measure{
+    margin-top: 40px;
+    margin-left: 300px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffc600;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    width: 400px;
+}
+
+
+.PetiProzor .Measure:hover {
+    color: black;  
+}
+
+
+.PetiProzor .paleta {
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+
+.PetiProzor .naslov3_2 {
+    margin-top: -60px;
+    margin-left: 300px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif; 
+    font-weight: bold;
+    font-size: 35px;
+    width: 750px;
+}
+
+
+.PetiProzor .tekst1 {
+    margin-top: -5px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.PetiProzor .tekst2 {
+    margin-top: 10px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.PetiProzor .Deliver{
+    margin-top: 40px;
+    margin-left: 300px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffc600;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    width: 400px;
+}
+
+
+.PetiProzor .Deliver:hover {
+    color: black;  
+}
+
+
+
+.PetiProzor .disk {
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+
+.PetiProzor .optimization {
+    margin-top: -60px;
+    margin-left: 300px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif; 
+    font-weight: bold;
+    font-size: 35px;
+    width: 750px;
+}
+
+
+.PetiProzor .web {
+    margin-top: -5px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.PetiProzor .let {
+    margin-top: 10px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 1.8rem;
+    width: 650px;
+}
+
+
+.PetiProzor .CSS{
+    margin-top: 40px;
+    margin-left: 300px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffc600;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    width: 350px;
+}
+
+
+.PetiProzor .CSS:hover {
+    color: black;  
+}
+
+
+
+
+
+
+
+
+
+.SestiProzor {
+    background-color: #09233c;
+    height: 730px;
+}
+
+
+.SestiProzor .get {
+    margin-top: 100px;
+    margin-left: 70px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+
+.SestiProzor .web {
+    margin-top: -80px;
+    margin-left: 365px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    width: 200px;
+}
+
+
+.SestiProzor .Optimization {
+    margin-top: -25px;
+    margin-left: 70px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+
+.SestiProzor .tool {
+    margin-top: -81px;
+    margin-left: 185px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+
+.SestiProzor .txtxd {
+    margin-top: -15px;
+    margin-left: 70px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 24px;
+    width: 520px;
+} 
+
+
+
+.SestiProzor .txtzaklik {
+    margin-top: 50px;
+    margin-left: 70px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 2rem;
+    width: 570px;
+}
+
+
+
+.SestiProzor .txtzaklik2 {
+    margin-left: 70px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+    width: 520px;
+    line-height: 2rem;
+}
+
+
+.SestiProzor .email {
+    margin-top: 20px;
+    margin-left: 70px;
+    border-style: solid;
+    border-width: 0.1px 0.1px 0.1px 0.1px;
+    border-radius: 3px 0px 0px 3px;
+    border: #09233c;
+    height: 50px;
+    width: 430px;
+}
+
+
+.SestiProzor .email::placeholder {
+    color: black;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+.SestiProzor .avion {
+    float: right;
+    margin-top: 20px;
+    margin-right: 783px;
+    background-color: #ffc600;
+    border-radius: 0px 3px 3px 0px;
+    width: 52px;
+    height: 52px;
+}
+
+
+.SestiProzor .avion:hover {
+    border: snow;
+    
+}
+
+
+.SestiProzor .knjiga {    
+    float: right;
+    margin-top: -380px;
+    width: 450px;
+    height: 650px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.SedmiProzor {
+    background-color: #184772;
+    height: 500px;
+}
+
+
+
+.SedmiProzor .praznopolje {
+    height: 70px;
+}
+
+
+.SedmiProzor .naslov {
+    margin-left: 300px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+
+
+.SedmiProzor .txt1 {
+    margin-top: -15px;
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 1.125rem;
+    width: 540px;
+    line-height: 1.5;
+}
+
+
+
+.SedmiProzor .txt2 {
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 1.125rem;
+    width: 540px;
+    line-height: 1.5;
+}
+
+
+
+
+.SedmiProzor .txt3 {
+    margin-left: 300px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 1.125rem;
+    width: 540px;
+    line-height: 1.5;
+}
+
+
+
+.SedmiProzor .Tower {
+    float: right;
+    margin-top: -235px;
+    margin-right: 250px;
+    width: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+.OsmiProzor {
+    grid-area: OsmiProzor;
+    background-color:  #09233c;
+    width: 100%;
+    height: 480px;
+}
+
+
+.OsmiProzor .praznopolje {
+    height: 50px;
+}
+
+  
+
+
+
+.OsmiProzor .prvigrid {
+    float: left;
+    margin-left: 150px;
+    height: 300px;
+    width: 200px;
+}
+
+
+
+.prvigrid .About {
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.prvigrid .About2 {
+    margin-top: -15px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.prvigrid .About2:hover {
+    color: cyan;
+}
+
+
+
+.prvigrid .Blog {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.prvigrid .Blog:hover {
+    color: cyan;
+}
+
+
+
+.prvigrid .Merch {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.prvigrid .Merch:hover {
+    color: cyan;
+}
+
+
+
+.prvigrid .Tower_Git_Client {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.prvigrid .Tower_Git_Client:hover {
+    color: cyan;
+}
+
+
+
+
+
+.OsmiProzor .drugigrid {
+    float: left;
+    margin-left: 160px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.drugigrid .gitand {
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.drugigrid .online {
+    margin-top: -15px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.drugigrid .online:hover {
+    color: cyan;
+}
+
+
+
+.drugigrid .first {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.drugigrid .first:hover {
+    color: cyan;
+}
+
+
+
+.drugigrid .Webinar {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.drugigrid .Webinar:hover {
+    color: cyan;
+}
+
+
+
+.drugigrid .video {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.drugigrid .video:hover {
+    color: cyan;
+}
+
+
+
+.drugigrid .FAQ {
+    margin-top: -10px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.drugigrid .FAQ:hover {
+    color: cyan;
+}
+
+
+
+.drugigrid .Glossary {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.drugigrid .Glossary:hover {
+    color: cyan;
+}
+
+
+
+.drugigrid .Commands {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.drugigrid .Commands:hover {
+    color: cyan;
+}
+
+
+
+.drugigrid .naslovcic {
+    margin-top: 50px;
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.drugigrid .Website {
+    margin-top: -15px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.drugigrid .Website:hover {
+    color: cyan;
+}
+
+
+
+
+.OsmiProzor .trecigrid {
+    float: right;
+    margin-right: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.trecigrid .naslov {
+    color: #00caf4;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.trecigrid .git {
+    margin-top: -15px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.trecigrid .git:hover {
+    color: cyan;
+}
+
+
+
+.trecigrid .visual {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.trecigrid .visual:hover {
+    color: cyan;
+}
+
+
+
+.trecigrid .tower {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.trecigrid .tower:hover {
+    color: cyan;
+}
+
+
+
+.trecigrid .x {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.trecigrid .x:hover {
+    color: cyan;
+}
+
+
+
+.trecigrid .comand {
+    margin-top: -10px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.trecigrid .comand:hover {
+    color: cyan;
+}
+
+
+
+.trecigrid .gitfor {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.trecigrid .gitfor:hover {
+    color: cyan;
+}
+
+
+
+.trecigrid .work {
+    margin-top: -8px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.trecigrid .work:hover {
+    color: cyan;
+}
+
+
+.trecigrid .web {
+    margin-top: -10px;
+    color: snow;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+
+.trecigrid .web:hover {
+    color: cyan;
+}
+
+
+
+.OsmiProzor .polje {
+    height: 50px;
+}
+
+
+
+.OsmiProzor .kraj {
+    background-color: grey;
+    width: 100%;
+    height: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.DevetiProzor {
+    grid-area: DevetiProzor;
+    background-color:  #09233c;
+    width: 100%;
+    height: 120px;
+}
+
+
+
+.DevetiProzor .zavrsnitxt1 {
+    text-align: center;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: .74rem;
+    line-height: 1.125rem;
+    color: #607a92; 
+}
+
+
+
+.DevetiProzor .zavrsnitxt2 {
+    text-align: center;
+    font-family:proxima-nova,"Lucida Grande",Verdana,"Helvetica Neue",Helvetica,sans-serif;
+    font-size: .74rem;
+    line-height: 1.125rem;
+    color: #607a92; 
+}

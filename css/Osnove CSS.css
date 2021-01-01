@@ -1,0 +1,76 @@
+.Ceosajt {
+    display: grid;
+    grid-template-areas: 
+    "PrviProzor"
+    "DrugiProzor";
+}
+
+
+.PrviProzor {
+    width: 100%;
+    background-color: aqua;
+}
+
+
+
+.PrviProzor .nesto {
+    width: 400px;
+    font-size: 2rem;
+    font-weight: 300;
+    color: magenta;
+}
+
+
+
+.PrviProzor .ovo_mi_je_bitno {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.ovo_mi_je_bitno .isto:hover {
+    color: darkblue;
+}
+/*TBR KOLKI SAM GENIJE*/
+
+
+
+
+
+
+
+
+
+
+
+.Ceosajt .DrugiProzor {
+    background-color: brown;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.DrugiProzor .txt {
+    color: black;
+    width: 600px;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+
+.txt .text {
+    color: cyan;
+}
+
+
+.txt .text:hover {
+    color: darkorange;
+}
+/*span je ovo text!!*/ 
+
+
+
+
